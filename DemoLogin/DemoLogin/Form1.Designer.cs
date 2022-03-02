@@ -43,7 +43,6 @@ namespace DemoLogin
             this.lbluser.Size = new System.Drawing.Size(57, 13);
             this.lbluser.TabIndex = 0;
             this.lbluser.Text = "UserName";
-            this.lbluser.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtUser
             // 
@@ -61,7 +60,6 @@ namespace DemoLogin
             this.lblPass.Size = new System.Drawing.Size(49, 14);
             this.lblPass.TabIndex = 0;
             this.lblPass.Text = "Password";
-            this.lblPass.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtPass
             // 

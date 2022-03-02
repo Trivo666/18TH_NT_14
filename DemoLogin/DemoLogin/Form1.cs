@@ -16,5 +16,15 @@ namespace DemoLogin
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUser.Text;
+            string password = txtPass.Text;
+            if(username=="admin"&&password=="admin")
+            {
+                MessageBox.Show("Login successfull");
+            }    
+        }
     }
 }

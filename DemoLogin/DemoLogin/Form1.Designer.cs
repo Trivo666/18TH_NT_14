@@ -33,6 +33,7 @@ namespace DemoLogin
             this.txtUser = new System.Windows.Forms.TextBox();
             this.lblPass = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbluser
@@ -69,11 +70,22 @@ namespace DemoLogin
             this.txtPass.Size = new System.Drawing.Size(145, 20);
             this.txtPass.TabIndex = 1;
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(262, 146);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(73, 28);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(778, 297);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.lblPass);
@@ -91,6 +103,7 @@ namespace DemoLogin
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label lblPass;
         private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 
